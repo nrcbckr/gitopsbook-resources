@@ -19,4 +19,4 @@ spec:
             command: [sh, -e, -c]                    #H
             args:
             - git clone https://github.com/nrcbckr/gitopsbook-resources.git /tmp/example &&
-              find /tmp/example/sample-app-deployment/ -name '*.yaml' -exec kubectl apply -f {} \;
+              find /tmp/example/sample-app-deployment -name '*.yaml' -exec kubectl apply -f {} \;
