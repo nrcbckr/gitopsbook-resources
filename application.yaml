@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoUrl: https://github.com/nrcbckr/gitopsbook-resources.git
+    repoURL: https://github.com/nrcbckr/gitopsbook-resources.git
     targetRevision: HEAD
     path: sample-app-deployment
   destination:
